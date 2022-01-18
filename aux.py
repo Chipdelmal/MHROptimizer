@@ -1,6 +1,9 @@
 
 import re
+# https://monsterhunterrise.wiki.fextralife.com/Locations
 
-def splitList(eleList, rePat='; | |\n|\t'):
+GA_TYPES = ["Endemic Life", "Small Monsters", "Large Monsters", "Gathering"]
+
+def splitList(eleList, rePat='; |  |\n|\t'):
     strSplit = re.split(rePat, eleList) 
-    return [i for i in strSplit if len(i)>0]
+    return set([i.strip() for i in strSplit if len(i)>0])

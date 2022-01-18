@@ -3,79 +3,81 @@ import aux
 
 endemic="""
 Antidobra 	Peepersects
-Aurortle 	Rock Lizard
-Blastoad 	Scale Lizard
-Boulder Lizard 	Sleeptoad
+Blastoad 	Poisontoad
+Brewhare 	Puppet Spider
 Butterflame 	Snowbeetle
 Clothfly 	Green Spiribird
 Cutterfly 	Orange Spiribird
 Escuregot 	Red Spiribird
 Felicicrow 	Yellow Spiribird
-Fortune Owl 	Gilded Spiribug
-Giganha 	Golden Spiribug
-Gilded Spiribug 	Stinkmink
-Golden Spiribug 	Thunderbeetle
-Great Wirebug 	Tricktoad
-Lanternbug 	Vigorwasp
+Firebeetle 	Gilded Spiribug
+Flashfly 	Golden Spiribug
+Fortune Owl 	Stinkmink
+Great Wirebug 	Thunderbeetle
+Boulder Lizard 	Trapbugs
+Rock Lizard 	Vigorwasp
+Scale Lizard 	Wailnard
 Mudbeetle 	Wirebug
-Paratoad
 """
 
 small="""
 Altaroth
 Bnahabra
+Bombadgy
 Bullfango
 Felyne
 Gajau
+Gargwa
+Izuchi
 Jagras
 Kelbi
-Ludroth
 Melynx
 Remobra
-Slagtoth
 Wroggi
 """
 
 large = """
+Aknosom
 Almudron
 Anjanath
 Arzuros
 Bishaten
+Great Izuchi
 Great Wroggi
-Jyuratodus
 Kulu-Ya-Ku
+Magnamalo
 Mizutsune
 Nargacuga
 Pukei-Pukei
 Rajang
+Rathalos
 Rathian
-Royal Ludroth
-Somnacanth
+Tetranadon
 Tobi-Kadachi
 Zinogre
 """
 
 gathering="""
-Herb 	Toadstool
-Antidote Herb 	Exciteshroom
-Ivy 	Mandragora
-Sleep Herb 	Bitterbug
-Snow Herb 	Godbug
-Flowfern 	Flashbug
-Felvine 	Thunderbug
-Smokenut 	Spider Web
-Nulberry 	Dung
-Latchberry 	Monster Bone S
-Needleberry 	Dragonhusk Shard
+Herb 	Honey
+Antidote Herb 	Blue Mushroom
+Fire Herb 	Nitroshroom
+Ivy 	Parashroom
+Sleep Herb 	Toadstool
+Flowfern 	Exciteshroom
+Felvine 	Mandragora
+Might Seed 	Bitterbug
+Adamant Seed 	Godbug
+Nulberry 	Flashbug
+Latchberry 	Thunderbug
+Huskberry 	Spider Web
+Needleberry 	Monster Bone S
+Bomberry 	Twisted Remains
 Blastnut 	Sturdy Bone
-Flamenut 	Quality Bone
-Blazenut 	Iron Ore
-Honey 	Earth Crystal
-Parashroom 	Machalite Ore
-Lightcrystal
+Dragonstrike Nut 	Quality Bone
+Slashberry 	 Twisted Rockbone
+Flamenut 	Iron Ore
+Earth Crystal
 Dragonite Ore
-Nova Crystal
-Fucium Ore
 Carbalite Ore
 """
 
