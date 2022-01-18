@@ -72,13 +72,13 @@ Latchberry 	Thunderbug
 Huskberry 	Spider Web
 Needleberry 	Monster Bone S
 Bomberry 	Twisted Remains
-Blastnut 	Sturdy Bone
-Dragonstrike Nut 	Quality Bone
-Slashberry 	 Twisted Rockbone
+Blastnut 	Sturdy Bone (High Rank)
+Dragonstrike Nut 	Quality Bone (High Rank)
+Slashberry 	 Twisted Rockbone (High Rank)
 Flamenut 	Iron Ore
 Earth Crystal
-Dragonite Ore
-Carbalite Ore
+Dragonite Ore (High Rank)
+Carbalite Ore (High Rank)
 """
 
 ###############################################################################

@@ -67,16 +67,16 @@ Smokenut 	Spider Web
 Nulberry 	Dung
 Latchberry 	Monster Bone S
 Needleberry 	Dragonhusk Shard
-Blastnut 	Sturdy Bone
-Flamenut 	Quality Bone
+Blastnut 	Sturdy Bone (High Rank)
+Flamenut 	Quality Bone (High Rank)
 Blazenut 	Iron Ore
 Honey 	Earth Crystal
 Parashroom 	Machalite Ore
-Lightcrystal
-Dragonite Ore
-Nova Crystal
-Fucium Ore
-Carbalite Ore
+  	Lightcrystal
+  	Dragonite Ore (High Rank)
+  	Nova Crystal (High Rank)
+  	Fucium Ore (High Rank)
+  	Carbalite Ore (High Rank)
 """
 
 ###############################################################################

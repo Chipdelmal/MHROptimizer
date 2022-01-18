@@ -53,23 +53,24 @@ Volvidon
 gathering="""
 Herb 	Honey
 Antidote Herb 	Nitroshroom
-Fire Herb 	Parashroom
-Sunscorned Grass 	Mandragora
-Gloamgrass Bud 	Bitterbug
-Felvine 	Godbug
-Might Seed 	Spider Web
-Adamant Seed 	Dung
-Nulberry 	Monster Bone S
-Latchberry 	Eroded Skeleton
-Needleberry 	Sturdy Bone 
-Bomberry 	Quality Bone 
-Slashberry 	Eroded Husk 
-Flamenut 	Iron Ore
-Blazenut 	Earth Crystal
-Machalite Ore
-Dragonite Ore 
-Fucium Ore 
-Carbalite Ore 
+Fire Herb 	Mandragora
+Flowfern 	Godbug
+Sunscorned Grass 	Thunderbug
+Gloamgrass Bud 	Spider Web
+Felvine 	Dung
+Might Seed 	Iron Ore
+Adamant Seed 	Earth Crystal
+Nulberry 	Machalite Ore
+Dragonfell Berry 	Dragonite Ore (High Rank)
+Latchberry 	Firestone
+Huskberry 	Firecell Stone (High Rank)
+Bomberry 	Fucium Ore (High Rank)
+Blastnut 	Carbalite Ore (High Rank)
+Flamenut 	Monster Bone S
+Blazenut 	Dragonhusk Shard
+  	Sturdy Bone
+  	Quality Bone (High Rank)
+  	Dragonbone Relic (High Rank)
 """
 
 ###############################################################################

@@ -62,15 +62,15 @@ Gloamgrass Bud 	Spider Web
 Felvine 	Dung
 Smokenut 	Monster Bone S
 Nulberry 	Dragonhusk Shard
-Latchberry 	Sturdy Bone
-Huskberry 	Quality Bone
-Dragonstrike Nut 	Dragonbone Relic
+Latchberry 	Sturdy Bone (High Rank)
+Huskberry 	Quality Bone (High Rank)
+Dragonstrike Nut 	Dragonbone Relic (High Rank)
 Slashberry 	Icium
 Flamenut 	Earth Crystal
-Gracium
-Dragonite Ore
-Machalite Ore
-Carbalite Ore
+Gracium (High Rank)
+Dragonite Ore (High Rank)
+Machalite Ore (High Rank)
+Carbalite Ore (High Rank)
 """
 
 ###############################################################################

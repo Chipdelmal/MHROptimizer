@@ -7,8 +7,11 @@ import DA_SandyPlains as SandyPlains
 import DA_LavaCaverns as LavaCaverns
 
 needed = [
-    'Aknosom', 'Nargacuga', 'Anteka', 'Carbalite Ore'
+    'Kelbi', 'Anteka',
+    'Aknosom', 'Nargacuga', 'Carbalite Ore', 'Dragonite Ore',
+    'Bullfango'
 ]
+needed = sorted(list(set(needed)))
 ###############################################################################
 # Setup Locales to look at
 ###############################################################################
@@ -31,4 +34,7 @@ for loc in LOCALES:
         ]
         presFull.extend(presGoal)
     presence[loc] = presFull
+###############################################################################
+# Results
+###############################################################################
 presence

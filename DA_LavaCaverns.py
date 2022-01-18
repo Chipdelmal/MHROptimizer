@@ -61,14 +61,14 @@ Adamant Seed 	Earth Crystal
 Nulberry 	Machalite Ore
 Dragonfell Berry 	Dragonite Ore
 Latchberry 	Firestone
-Huskberry 	Firecell Stone
-Bomberry 	Fucium Ore
-Blastnut 	Carbalite Ore
+Huskberry 	Firecell Stone (High Rank)
+Bomberry 	Fucium Ore (High Rank)
+Blastnut 	Carbalite Ore (High Rank)
 Flamenut 	Monster Bone S
 Blazenut 	Dragonhusk Shard
 Sturdy Bone
-Quality Bone
-Dragonbone Relic
+Quality Bone (High Rank)
+Dragonbone Relic (High Rank)
 """
 
 ###############################################################################
