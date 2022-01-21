@@ -1,6 +1,5 @@
 
 import re
-# https://monsterhunterrise.wiki.fextralife.com/Locations
 
 GA_TYPES = ["Endemic Life", "Small Monsters", "Large Monsters", "Gathering"]
 
