@@ -7,9 +7,7 @@ import DA_SandyPlains as SandyPlains
 import DA_LavaCaverns as LavaCaverns
 
 needed = [
-    'Kelbi', 'Anteka',
-    'Aknosom', 'Nargacuga', 'Carbalite Ore', 'Dragonite Ore',
-    'Bullfango'
+    'Kelbi', 'Anteka', 'Mizutsune', 'Delex', 'Icium'
 ]
 needed = sorted(list(set(needed)))
 ###############################################################################
