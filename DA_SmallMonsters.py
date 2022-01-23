@@ -1,10 +1,12 @@
 
 import aux
+import pandas as pd
 
 BAN = {
     "monster hunter rise wiki guide": '\t', 
-    "mhr wiki guide": '\t'
+    "material mhr wiki guide": '\t'
 }
+COLS = ['monster', 'material', 'carve', 'drop']
 
 ###############################################################################
 # Bnahbra
@@ -23,4 +25,7 @@ monster fluid monster hunter rise wiki guideMonster Fluid 	17% 	--%
 '''
 
 
-aux.cleanMonster(bnahbra_hi, BAN)
+tst = aux.cleanMonster(bnahbra_hi, BAN)
+df = aux.monsterToMaterials(tst)
+
+pd.DataFrame(df, columns=COLS)
