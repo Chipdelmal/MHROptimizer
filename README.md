@@ -1,4 +1,4 @@
-# MHROptimizer
+# MHR Optimizer
 
 These scripts were created as a tool to optimize hunting routes in "[Monster Hunter Rise](https://www.monsterhunter.com/rise/)".
 

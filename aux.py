@@ -1,13 +1,26 @@
 
 import re
 
-GA_TYPES = ["Endemic Life", "Small Monsters", "Large Monsters", "Gathering"]
+BASE_MONSTER_URL = 'https://monsterhunterrise.wiki.fextralife.com/'
+###############################################################################
+# Lists Columns
+###############################################################################
+GA_TYPES = ("Endemic Life", "Small Monsters", "Large Monsters", "Gathering")
 BAN = {
     "monster hunter rise wiki guide": '\t', 
     "material mhr wiki guide": '\t'
 }
+SM_COLS = ('Monster', 'Material', 'Carve', 'Drop')
+LG_COLS =  (
+    'Monster', 'Material', 'Target', 'Capture', 
+    'Break Part', 'Carves', 'Dropped'
+)
+WPS_COLS = ('Pierce', 'Blunt', 'Projectile')
+ELE_COLS = ('Fire', 'Water', 'Thunder', 'Ice', 'Dragon')
 
-
+###############################################################################
+# String Parsing
+###############################################################################
 def splitList(eleList, rePat='; |  |\n|\t'):
     strSplit = re.split(rePat, eleList) 
     return set([i.strip() for i in strSplit if len(i)>0])

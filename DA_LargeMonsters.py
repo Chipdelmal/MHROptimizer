@@ -2,12 +2,7 @@
 import aux
 import pandas as pd
 
-WPS = ('Pierce', 'Blunt', 'Projectile')
-ELE = ('Fire', 'Water', 'Thunder', 'Ice', 'Dragon')
-COLS = (
-    'Monster', 'Material', 'Target', 'Capture', 
-    'Break Part', 'Carves', 'Dropped'
-)
+
 ###############################################################################
 # Tobi-Kadachi
 ###############################################################################
@@ -52,4 +47,4 @@ Tail 	65 	65 	55
 '''
 tst = aux.cleanMonster(tobiKadachi_hi)
 df = aux.monsterToMaterials(tst, name)
-pd.DataFrame(df, columns=COLS)
+pd.DataFrame(df, columns=aux.LG_COLS)
