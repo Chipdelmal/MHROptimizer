@@ -7,6 +7,37 @@ monsters = OrderedDict()
 ###############################################################################
 # Monsters Database
 ###############################################################################
+# -----------------------------------------------------------------------------
+""" monsters['Felyne'] = {
+    'Low': 
+        '''
+        lottery ticket monster hunter rise wiki guidePawprint Stamp 	14%
+        Round Acorn 	32%
+        firs aid med monster hunter rise wiki guidexFirst-aid Med 	54%
+        ''',
+    'High': 
+        '''
+        lottery ticket monster hunter rise wiki guidePawprint Stamp 	14%
+        Round Acorn 	32%
+        firs aid med monster hunter rise wiki guidexFisrt-aid Med 	54%
+        '''
+} """
+# -----------------------------------------------------------------------------
+""" monsters['Melynx'] = {
+    'Low': 
+        '''
+        Secret Stash 	--% 	52%
+        lottery_ticket-monster-hunter-rise-wiki-guidePawprint Stamp 	--% 	20%
+        ration-monster-hunter-rise-wiki-guideRation 	--% 	28%
+        ''',
+    'High': 
+        '''
+        Secret Stash 	--% (Part) 	52%
+        lottery_ticket-monster-hunter-rise-wiki-guidePawprint Stamp 	--% (Part) 	20%
+        ration-monster-hunter-rise-wiki-guideRation 	--% (Part) 	28%
+        '''
+} """
+# -----------------------------------------------------------------------------
 monsters['Kelbi'] = {
     'Low': 
         '''
