@@ -8,7 +8,9 @@ BASE_MONSTER_URL = 'https://monsterhunterrise.wiki.fextralife.com/'
 GA_TYPES = ("Endemic Life", "Small Monsters", "Large Monsters", "Gathering")
 BAN = {
     "monster hunter rise wiki guide": '\t', 
-    "material mhr wiki guide": '\t'
+    "material mhr wiki guide": '\t',
+    "-monster-hunter-rise-wiki-guide": '\t',
+    "-material-mhr-wiki-guide": '\t'
 }
 SM_COLS = ('Monster', 'Material', 'Carve', 'Drop')
 LG_COLS =  (

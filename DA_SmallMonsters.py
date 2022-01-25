@@ -1,4 +1,5 @@
 
+from operator import index
 import aux
 import pandas as pd
 from collections import OrderedDict
@@ -23,7 +24,7 @@ monsters = OrderedDict()
         '''
 } """
 # -----------------------------------------------------------------------------
-""" monsters['Melynx'] = {
+monsters['Melynx'] = {
     'Low': 
         '''
         Secret Stash 	--% 	52%
@@ -36,7 +37,7 @@ monsters = OrderedDict()
         lottery_ticket-monster-hunter-rise-wiki-guidePawprint Stamp 	--% (Part) 	20%
         ration-monster-hunter-rise-wiki-guideRation 	--% (Part) 	28%
         '''
-} """
+}
 # -----------------------------------------------------------------------------
 monsters['Kelbi'] = {
     'Low': 
@@ -55,7 +56,7 @@ monsters['Kelbi'] = {
         '''
 }
 # -----------------------------------------------------------------------------
-""" monsters['Bombadgy'] = {
+monsters['Bombadgy'] = {
     'Low': 
         '''
         raw_meat-monster-hunter-rise-wiki-guideRaw Meat 	70% 	--%
@@ -66,7 +67,7 @@ monsters['Kelbi'] = {
         raw_meat-monster-hunter-rise-wiki-guideRaw Meat 	70% (Body) 	--%
         bombadgy_igniter-monster-hunter-rise-wiki-guideBombadgy Igniter 	30% (Body) 	--%
         '''
-} """
+}
 # -----------------------------------------------------------------------------
 monsters['Gargwa'] = {
     'Low': 
@@ -91,7 +92,7 @@ monsters['Gargwa'] = {
         '''
 }
 # -----------------------------------------------------------------------------
-""" monsters['Bullfango'] = {
+monsters['Bullfango'] = {
     'Low': 
         '''
         bullfango_pelt-monster-hunter-rise-wiki-guideBullfango Pelt 	50% 	--%
@@ -105,7 +106,7 @@ monsters['Gargwa'] = {
         jumbo_bone-monster-hunter-rise-wiki-guideJumbo Bone 	15% 	--%
         acute_fang-monster-hunter-rise-wiki-guideAcute Fang 	18% 	--%
         '''
-} """
+}
 # -----------------------------------------------------------------------------
 monsters['Jagras'] = {
     'Low': 
@@ -162,7 +163,7 @@ monsters['Altaroth'] = {
         '''
 }
 # -----------------------------------------------------------------------------
-""" monsters['Gajau'] = {
+monsters['Gajau'] = {
     'Low': 
         '''
         gajau_skin-monster-hunter-rise-wiki-guideGajau Skin 	70% 	--%
@@ -175,7 +176,7 @@ monsters['Altaroth'] = {
         gajau_whisker+-monster-hunter-rise-wiki-guideGajau Whisker + 	20% 	--%
         acute_fang-monster-hunter-rise-wiki-guideAcute Fang 	10% 	--%
         '''
-} """
+}
 # -----------------------------------------------------------------------------
 monsters['Remobra'] = {
     'Low': 
@@ -222,7 +223,7 @@ monsters['Wroggi'] = {
         '''
 }
 # -----------------------------------------------------------------------------
-""" monsters['Popo'] = {
+monsters['Popo'] = {
     'Low': 
         '''
         raw_meat-monster-hunter-rise-wiki-guideRaw Meat 	41% 	--%
@@ -235,9 +236,9 @@ monsters['Wroggi'] = {
         popo_tongue_monster_hunter_rise_wiki_guidePopo Tongue 	53% 	--%
         stoutbone-material-mhr-wiki-guideStoutbone 	6% 	--%
         '''
-} """
+}
 # -----------------------------------------------------------------------------
-""" monsters['Anteka'] = {
+monsters['Anteka'] = {
     'Low': 
         '''
         raw_meat-monster-hunter-rise-wiki-guideRaw Meat 	32% 	--%
@@ -253,9 +254,9 @@ monsters['Wroggi'] = {
         anteka_antler-monster-hunter-rise-wiki-guideAnteka Antler 	40% 	--%
         white_liver_monster_hunter_rise_wiki_guideWhite Liver 	10% 	--%
         '''
-} """
+}
 # -----------------------------------------------------------------------------
-monsters['Slagtoth'] = {
+""" monsters['Slagtoth'] = {
     'Low': 
         '''
         slagtoth_hide-monster-hunter-rise-wiki-guideSlagtoth Oil 	40% 	--%
@@ -270,7 +271,7 @@ monsters['Slagtoth'] = {
         monster_bone_m-monster-hunter-rise-wiki-guideMonster Bone M 	4 	5% 	--%
         raw_meat-monster-hunter-rise-wiki-guideRaw Meat 	1 	15% 	--%
         '''
-}
+} """
 # -----------------------------------------------------------------------------
 monsters['Kestodon'] = {
     'Low': 
@@ -302,7 +303,7 @@ monsters['Rhenoplos'] = {
         '''
 }
 # -----------------------------------------------------------------------------
-""" monsters['Rachnoid'] = {
+monsters['Rachnoid'] = {
     'Low': 
         '''
         rachnoid_silk-monster-hunter-rise-wiki-guideRachnoid Silk 	53% (Part) 	--%
@@ -315,7 +316,7 @@ monsters['Rhenoplos'] = {
         piercing_claw-monster-hunter-rise-wiki-guidePiercing Claw 	15% (Body) 	--%
         monster_broth-material-mhr-wiki-guideMonster Broth 	32% (Body) 	--%
         '''
-} """
+}
 # -----------------------------------------------------------------------------
 monsters['Uroktor'] = {
     'Low': 
@@ -332,7 +333,7 @@ monsters['Uroktor'] = {
         '''
 }
 # -----------------------------------------------------------------------------
-""" monsters['Zamite'] = {
+monsters['Zamite'] = {
     'Low': 
         '''
         meaty_hide-monster-hunter-rise-wiki-guideMeaty Hide 	38% (Body) 	--%
@@ -347,9 +348,9 @@ monsters['Uroktor'] = {
         acute_fang-monster-hunter-rise-wiki-guideAcute Fang 	17% (Body) 	--%
         monster_guts_monster_hunter_rise_wiki_guideMonster Guts 	13% (Body) 	--%
         '''
-} """
+}
 # -----------------------------------------------------------------------------
-""" monsters['Ludroth'] = {
+monsters['Ludroth'] = {
     'Low': 
         '''
         hydro_hide+-material-mhr-wiki-guideHydro Hide 	52%(Part) 	--%
@@ -362,7 +363,7 @@ monsters['Uroktor'] = {
         immature_sponge-monster-hunter-rise-wiki-guideImmature Sponge 	28%(Body) 	--%
         piercing_claw-monster-hunter-rise-wiki-guidePiercing Claw 	16%(Part) 	--%
         '''
-} """
+}
 # -----------------------------------------------------------------------------
 """ monsters['Baggi'] = {
     'Low': 
@@ -379,7 +380,7 @@ monsters['Uroktor'] = {
         '''
 } """
 # -----------------------------------------------------------------------------
-""" monsters['Jaggia'] = {
+monsters['Jaggia'] = {
     'Low': 
         '''
         jaggi_hide-monster-hunter-rise-wiki-guideJaggi Hide 	38% (Body) 	--%
@@ -394,9 +395,9 @@ monsters['Uroktor'] = {
         screamer_sac-monster-hunter-rise-wiki-guideScreamer Sac 	20% (Body) 	--%
         acute_fang-monster-hunter-rise-wiki-guideAcute Fang 	10% (Body) 	--?%
         '''
-} """
+}
 # -----------------------------------------------------------------------------
-""" monsters['Jaggi'] = {
+monsters['Jaggi'] = {
     'Low': 
         '''
         jaggi_hide-monster-hunter-rise-wiki-guideJaggi Hide 	35% (Part) 	--%
@@ -411,15 +412,32 @@ monsters['Uroktor'] = {
         screamer_sac-monster-hunter-rise-wiki-guideScreamer Sac 	30% (Part) 	--%
         acute_fang-monster-hunter-rise-wiki-guideAcute Fang 	10% (Part) 	--%
         '''
-} """
+}
 ###############################################################################
-# Test Dataframe
+# Create Dataframe
 ###############################################################################
-i = -1
-mEntry = list(monsters.items())[i]
-(name, lo, hi) = (mEntry[0], mEntry[1]['Low'], mEntry[1]['High'])
-tst = [aux.cleanMonster(x) for x in (lo, hi)]
-cln = [aux.monsterToMaterials(x, '{} {}'.format(name, nme)) for (x, nme) in zip(tst, ('-', '+'))]
-dfs = [pd.DataFrame(x, columns=aux.SM_COLS) for x in cln]
-df = pd.concat(dfs, ignore_index=True)
-df
+i = -2
+monstersNum = len(monsters)
+monstersDFS = []
+for i in range(monstersNum):
+    mEntry = list(monsters.items())[i]
+    (name, lo, hi) = (mEntry[0], mEntry[1]['Low'], mEntry[1]['High'])
+    print(name)
+    tst = [aux.cleanMonster(x) for x in (lo, hi)]
+    cln = [aux.monsterToMaterials(x, '{} {}'.format(name, nme)) for (x, nme) in zip(tst, ('-', '+'))]
+    dfs = [pd.DataFrame(x, columns=aux.SM_COLS) for x in cln]
+    df = pd.concat(dfs, ignore_index=True)
+    monstersDFS.append(df)
+monstersDF = pd.concat(monstersDFS, ignore_index=True)
+monstersDF.to_csv('./data/SmallMonsters.csv', index=False)
+###############################################################################
+# Debug Dataframe
+###############################################################################
+# i = 2
+# mEntry = list(monsters.items())[i]
+# (name, lo, hi) = (mEntry[0], mEntry[1]['Low'], mEntry[1]['High'])
+# tst = [aux.cleanMonster(x) for x in (lo, hi)]
+# cln = [aux.monsterToMaterials(x, '{} {}'.format(name, nme)) for (x, nme) in zip(tst, ('-', '+'))]
+# dfs = [pd.DataFrame(x, columns=aux.SM_COLS) for x in cln]
+# df = pd.concat(dfs, ignore_index=True)
+# df
