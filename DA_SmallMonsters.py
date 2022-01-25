@@ -9,31 +9,31 @@ monsters = OrderedDict()
 # Monsters Database
 ###############################################################################
 # -----------------------------------------------------------------------------
-""" monsters['Felyne'] = {
+monsters['Felyne'] = {
     'Low': 
         '''
-        lottery ticket monster hunter rise wiki guidePawprint Stamp 	14%
-        Round Acorn 	32%
-        firs aid med monster hunter rise wiki guidexFirst-aid Med 	54%
+        lottery ticket monster hunter rise wiki guidePawprint Stamp\t--%\t14%
+        Felyne \t Round Acorn\t--%\t32%
+        first aid med monster hunter rise wiki guideFirst-aid Med\t--%\t54%
         ''',
     'High': 
         '''
-        lottery ticket monster hunter rise wiki guidePawprint Stamp 	14%
-        Round Acorn 	32%
-        firs aid med monster hunter rise wiki guidexFisrt-aid Med 	54%
+        lottery ticket monster hunter rise wiki guidePawprint Stamp\t--%\t14%
+        Felyne \t Round Acorn \t--%\t 32%
+        first aid med monster hunter rise wiki guideFisrt-aid Med\t--%\t54%
         '''
-} """
+}
 # -----------------------------------------------------------------------------
 monsters['Melynx'] = {
     'Low': 
         '''
-        Secret Stash 	--% 	52%
+        Melynx \t Secret Stash 	--% 	52%
         lottery_ticket-monster-hunter-rise-wiki-guidePawprint Stamp 	--% 	20%
         ration-monster-hunter-rise-wiki-guideRation 	--% 	28%
         ''',
     'High': 
         '''
-        Secret Stash 	--% (Part) 	52%
+        Melynx \t Secret Stash 	--% (Part) 	52%
         lottery_ticket-monster-hunter-rise-wiki-guidePawprint Stamp 	--% (Part) 	20%
         ration-monster-hunter-rise-wiki-guideRation 	--% (Part) 	28%
         '''
@@ -75,20 +75,20 @@ monsters['Gargwa'] = {
         gargwa feather monster hunter rise wiki guideGargwa Feather 	25%(Body) 	--%
         raw meat monster hunter rise wiki guideRaw Meat 	60%(Body) 	--%
         monster bone s monster hunter rise wiki guideMonster Bone S 	15%(Body) 	--%
-        Gargwa Guano 	--% 	60%
+        Gargwa \t Gargwa Guano 	--% 	60%
         herb material mhr wiki guideHerb 	--% 	40%
         gargwa egg hunter rise wiki guideGargwa Egg 	--% 	100%
-        Gold Gargwa Egg 	--% 	100%
+        Gargwa \t Gold Gargwa Egg 	--% 	100%
         ''',
     'High': 
         '''
         gargwa feather monster hunter rise wiki guideGargwa Feather 	35% (Body) 	--%
         raw meat monster hunter rise wiki guideRaw Meat 	60% (Body) 	--%
         monster bone s monster hunter rise wiki guideMonster Bone S 	15% (Body) 	--%
-        Gargwa Guano 	--% 	60%
+        Gargwa \t Gargwa Guano 	--% 	60%
         herb material mhr wiki guideHerb 	--% 	40%
         gargwa egg hunter rise wiki guideGargwa Egg 	--% 	100%
-        Gold Gargwa Egg 	--% 	100%
+        Gargwa \t Gold Gargwa Egg 	--% 	100%
         '''
 }
 # -----------------------------------------------------------------------------
@@ -193,20 +193,20 @@ monsters['Remobra'] = {
         '''
 }
 # -----------------------------------------------------------------------------
-""" monsters['Izuchi'] = {
+monsters['Izuchi'] = {
     'Low': 
         '''
-        Izuchi Tail 	52% 	--%
-        Izuchi Pelt 	33% 	--%
-        Sharp Claw 	15% 	--%
+        Izuchi \t Izuchi Tail 	52% 	--%
+        Izuchi \t Izuchi Pelt 	33% 	--%
+        Izuchi \t Sharp Claw 	15% 	--%
         ''',
     'High': 
         '''
-        Izuchi Tail 	32% 	--%
-        Izuchi Pelt + 	53% 	--%
-        Piercing Claw 	15% 	--%
+        Izuchi \t Izuchi Tail 	32% 	--%
+        Izuchi \t Izuchi Pelt + 	53% 	--%
+        Izuchi \t Piercing Claw 	15% 	--%
         '''
-} """
+}
 # -----------------------------------------------------------------------------
 monsters['Wroggi'] = {
     'Low': 
@@ -338,7 +338,7 @@ monsters['Zamite'] = {
         '''
         meaty_hide-monster-hunter-rise-wiki-guideMeaty Hide 	38% (Body) 	--%
         sharqskin_scale-monster-hunter-rise-wiki-guideSharqskin Scale 	27% (Body) 	--%
-        acute_fang-monster-hunter-rise-wiki-guideAcute Fang 	12% ( (Body) 	--%
+        acute_fang-monster-hunter-rise-wiki-guideAcute Fang 	12% (Body) 	--%
         monster_guts_monster_hunter_rise_wiki_guideMonster Guts 	23% (Body) 	--%
         ''',
     'High': 
@@ -365,20 +365,20 @@ monsters['Ludroth'] = {
         '''
 }
 # -----------------------------------------------------------------------------
-""" monsters['Baggi'] = {
+monsters['Baggi'] = {
     'Low': 
         '''
-        Baggi Scale 	60% (Body) 	--%
-        Baggi Hide 	25% (Body) 	--%
-        Sharp Fang 	15% (Body) 	--%
+        Baggi \t Baggi Scale 	60% (Body) 	--%
+        Baggi \t Baggi Hide 	25% (Body) 	--%
+        Baggi \t Sharp Fang 	15% (Body) 	--%
         ''',
     'High': 
         '''
-        Baggi Scale + 	48% (Body) 	--%
-        Baggi Hide 	37% (Body) 	--%
-        Acute Fang 	15% (Body) 	--%
+        Baggi \t Baggi Scale + 	48% (Body) 	--%
+        Baggi \t Baggi Hide 	37% (Body) 	--%
+        Baggi \t Acute Fang 	15% (Body) 	--%
         '''
-} """
+}
 # -----------------------------------------------------------------------------
 monsters['Jaggia'] = {
     'Low': 
@@ -391,7 +391,7 @@ monsters['Jaggia'] = {
     'High': 
         '''
         jaggi_hide+-material-mhr-wiki-guideJaggi Hide + 	38% (Body) 	--%
-        jaggi_scale+-material-mhr-wiki-guideJaggi Scale + 	32% Body) 	--%
+        jaggi_scale+-material-mhr-wiki-guideJaggi Scale + 	32% (Body) 	--%
         screamer_sac-monster-hunter-rise-wiki-guideScreamer Sac 	20% (Body) 	--%
         acute_fang-monster-hunter-rise-wiki-guideAcute Fang 	10% (Body) 	--?%
         '''
@@ -416,7 +416,7 @@ monsters['Jaggi'] = {
 ###############################################################################
 # Create Dataframe
 ###############################################################################
-i = -2
+i = -3
 monstersNum = len(monsters)
 monstersDFS = []
 for i in range(monstersNum):
@@ -433,7 +433,7 @@ monstersDF.to_csv('./data/SmallMonsters.csv', index=False)
 ###############################################################################
 # Debug Dataframe
 ###############################################################################
-i = -4
+i = 0
 mEntry = list(monsters.items())[i]
 (name, lo, hi) = (mEntry[0], mEntry[1]['Low'], mEntry[1]['High'])
 tst = [aux.cleanMonster(x) for x in (lo, hi)]
@@ -441,3 +441,4 @@ cln = [aux.monsterToMaterials(x, '{} {}'.format(name, nme)) for (x, nme) in zip(
 dfs = [pd.DataFrame(x, columns=aux.SM_COLS) for x in cln]
 df = pd.concat(dfs, ignore_index=True)
 df
+

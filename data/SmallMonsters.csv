@@ -1,8 +1,14 @@
 Monster,Material,Carve,Drop
-Melynx -,--% ,52%,
+Felyne -,Pawprint Stamp,--%,14%
+Felyne -, Round Acorn,--%,32%
+Felyne -,First-aid Med,--%,54%
+Felyne +,Pawprint Stamp,--%,14%
+Felyne +, Round Acorn ,--%, 32%
+Felyne +,Fisrt-aid Med,--%,54%
+Melynx -, Secret Stash ,--% ,52%
 Melynx -,Pawprint Stamp ,--% ,20%
 Melynx -,Ration ,--% ,28%
-Melynx +,--% (Part) ,52%,
+Melynx +, Secret Stash ,--% (Part) ,52%
 Melynx +,Pawprint Stamp ,--% (Part) ,20%
 Melynx +,Ration ,--% (Part) ,28%
 Kelbi -,Kelbi Horn ,30% ,100%
@@ -20,17 +26,17 @@ Bombadgy +,Bombadgy Igniter ,30% (Body) ,--%
 Gargwa -,Gargwa Feather ,25%(Body) ,--%
 Gargwa -,Raw Meat ,60%(Body) ,--%
 Gargwa -,Monster Bone S ,15%(Body) ,--%
-Gargwa -,--% ,60%,
+Gargwa -, Gargwa Guano ,--% ,60%
 Gargwa -,Herb ,--% ,40%
-Gargwa -,--% ,100%,
-Gargwa -,--% ,100%,
+Gargwa -,Gargwa Egg ,--% ,100%
+Gargwa -, Gold Gargwa Egg ,--% ,100%
 Gargwa +,Gargwa Feather ,35% (Body) ,--%
 Gargwa +,Raw Meat ,60% (Body) ,--%
 Gargwa +,Monster Bone S ,15% (Body) ,--%
-Gargwa +,--% ,60%,
+Gargwa +, Gargwa Guano ,--% ,60%
 Gargwa +,Herb ,--% ,40%
-Gargwa +,--% ,100%,
-Gargwa +,--% ,100%,
+Gargwa +,Gargwa Egg ,--% ,100%
+Gargwa +, Gold Gargwa Egg ,--% ,100%
 Bullfango -,Bullfango Pelt ,50% ,--%
 Bullfango -,Bullfango Head ,20% ,--%
 Bullfango -,Sharp Fang ,20% ,--%
@@ -59,7 +65,7 @@ Altaroth -,Ripened Mushroom ,--% ,90%
 Altaroth -,Nulberry ,--% ,90%
 Altaroth -,Honey ,--% ,90%
 Altaroth -,Fine Stomach ,--% ,100%
-Altaroth +,55% ,55%,
+Altaroth +,Quality Stomach ,55% ,55%
 Altaroth +,Altaroth Jaw ,20% ,20%
 Altaroth +,Monster Broth ,25% ,25%
 Altaroth +,Ripened Mushroom ,--% ,90%
@@ -78,6 +84,12 @@ Remobra -,Remobra Head ,20% ,--%
 Remobra +,Remobra Hide + ,54% ,--%
 Remobra +,Striped Hide ,30% ,--%
 Remobra +,Remobra Head ,16% ,--%
+Izuchi -, Izuchi Tail ,52% ,--%
+Izuchi -, Izuchi Pelt ,33% ,--%
+Izuchi -, Sharp Claw ,15% ,--%
+Izuchi +, Izuchi Tail ,32% ,--%
+Izuchi +, Izuchi Pelt + ,53% ,--%
+Izuchi +, Piercing Claw ,15% ,--%
 Wroggi -,Wroggi Scale ,48% ,--%
 Wroggi -,Wroggi Hide ,37% ,--%
 Wroggi -,Sharp Fang ,15% ,--%
@@ -85,22 +97,22 @@ Wroggi +,Wroggi Scale + ,60% ,--%
 Wroggi +,Wroggi Hide ,25% ,--%
 Wroggi +,Acute Fang ,15% ,--%
 Popo -,Raw Meat ,41% ,--%
-Popo -,53% ,--%,
+Popo -,Popo Tongue ,53% ,--%
 Popo -,Jumbo Bone ,6% ,--%
 Popo +,Raw Meat ,41% ,--%
-Popo +,53% ,--%,
+Popo +,Popo Tongue ,53% ,--%
 Popo +,Stoutbone ,6% ,--%
 Anteka -,Raw Meat ,32% ,--%
 Anteka -,Warm Pelt ,18% ,--%
 Anteka -,Anteka Antler ,40% ,--%
-Anteka -,10% ,--%,
+Anteka -,White Liver ,10% ,--%
 Anteka +,Raw Meat ,32% ,--%
 Anteka +,High-quality Pelt ,18% ,--%
 Anteka +,Anteka Antler ,40% ,--%
-Anteka +,10% ,--%,
+Anteka +,White Liver ,10% ,--%
 Kestodon -,Kestodon Shell ,80% (Body) ,--%
 Kestodon -,Kestodon Scalp ,20% (Body) ,--%
-Kestodon +,70% (Body) ,--%,
+Kestodon +,Kestodon Carapace ,70% (Body) ,--%
 Kestodon +,Kestodon Scalp ,30% (Body) ,--%
 Rhenoplos -,Rhenoplos Shell ,35% (Body) ,--%
 Rhenoplos -,Rhenoplos Scalp ,20% (Body) ,--%
@@ -124,24 +136,30 @@ Uroktor +,Dragonfell Berry ,10% (Body) ,--%
 Uroktor +,Piercing Claw ,18% (Body) ,--%
 Zamite -,Meaty Hide ,38% (Body) ,--%
 Zamite -,Sharqskin Scale ,27% (Body) ,--%
-Zamite -,Acute Fang ,12% ( (Body) ,--%
-Zamite -,23% (Body) ,--%,
+Zamite -,Acute Fang ,12% (Body) ,--%
+Zamite -,Monster Guts ,23% (Body) ,--%
 Zamite +,Meaty Hide + ,40% (Body) ,--%
 Zamite +,Sharqskin Scale ,30% (Body) ,--%
 Zamite +,Acute Fang ,17% (Body) ,--%
-Zamite +,13% (Body) ,--%,
+Zamite +,Monster Guts ,13% (Body) ,--%
 Ludroth -,Hydro Hide ,52%(Part) ,--%
 Ludroth -,Immature Sponge ,36%(Part) ,--%
 Ludroth -,Sharp Claw ,12% (Part) ,--%
 Ludroth +,Hydro Hide + ,56%(Body) ,--%
 Ludroth +,Immature Sponge ,28%(Body) ,--%
 Ludroth +,Piercing Claw ,16%(Part) ,--%
+Baggi -, Baggi Scale ,60% (Body) ,--%
+Baggi -, Baggi Hide ,25% (Body) ,--%
+Baggi -, Sharp Fang ,15% (Body) ,--%
+Baggi +, Baggi Scale + ,48% (Body) ,--%
+Baggi +, Baggi Hide ,37% (Body) ,--%
+Baggi +, Acute Fang ,15% (Body) ,--%
 Jaggia -,Jaggi Hide ,38% (Body) ,--%
 Jaggia -,Jaggi Scale ,32% (Body) ,--%
 Jaggia -,Screamer Sac ,20% (Body) ,--%
 Jaggia -,Sharp Fang ,10% (Body) ,--%
 Jaggia +,Jaggi Hide + ,38% (Body) ,--%
-Jaggia +,Jaggi Scale + ,32% Body) ,--%
+Jaggia +,Jaggi Scale + ,32% (Body) ,--%
 Jaggia +,Screamer Sac ,20% (Body) ,--%
 Jaggia +,Acute Fang ,10% (Body) ,--?%
 Jaggi -,Jaggi Hide ,35% (Part) ,--%

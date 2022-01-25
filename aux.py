@@ -11,7 +11,8 @@ BAN = {
     "material mhr wiki guide": '\t',
     "-monster-hunter-rise-wiki-guide": '\t',
     "-material-mhr-wiki-guide": '\t',
-    "_monster_hunter_rise_wiki_guide": '\t'
+    "_monster_hunter_rise_wiki_guide": '\t',
+    "hunter rise wiki guide": '\t'
 }
 SM_COLS = ('Monster', 'Material', 'Carve', 'Drop')
 LG_COLS =  (
@@ -39,5 +40,5 @@ def cleanMonster(mstr, ban=BAN):
 def monsterToMaterials(monster, name):
     cln = [i.split('\t') for i in monster.split('\n')]
     for i in cln:
-        i[0] = name
+        i[0] = name    
     return [i for i in cln if (len(i)>1)]
