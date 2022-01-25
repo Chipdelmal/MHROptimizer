@@ -1,5 +1,6 @@
 
 import aux
+import pandas as pd
 import DA_FloodedForest as FloodedForest
 import DA_ShrineRuins as ShrineRuins
 import DA_FrostIslands as FrostIslands
@@ -12,7 +13,7 @@ needed = [
 ]
 needed = sorted(list(set(needed)))
 ###############################################################################
-# Setup Locales to look at
+# Setup locales to look at
 ###############################################################################
 LOCALES = {
     "Flooded Forest": FloodedForest.locale,
@@ -21,6 +22,14 @@ LOCALES = {
     "Sandy Plains": SandyPlains.locale,
     "Lava Caverns": LavaCaverns.locale
 }
+###############################################################################
+# Read monsters' database
+###############################################################################
+MNSTR_SM = pd.read_csv('./data/SmallMonsters.csv')
+# Testing material filtering --------------------------------------------------
+material = 'sharp fang'
+fltr = (MNSTR_SM['Material'] == material)
+MNSTR_SM[fltr]
 ###############################################################################
 # Iterate for presence of materials
 ###############################################################################

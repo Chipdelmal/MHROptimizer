@@ -416,7 +416,7 @@ monsters['Jaggi'] = {
 ###############################################################################
 # Create Dataframe
 ###############################################################################
-i = -3
+i = 0
 monstersNum = len(monsters)
 monstersDFS = []
 for i in range(monstersNum):
@@ -429,16 +429,19 @@ for i in range(monstersNum):
     df = pd.concat(dfs, ignore_index=True)
     monstersDFS.append(df)
 monstersDF = pd.concat(monstersDFS, ignore_index=True)
+monstersDF['Material'] = monstersDF['Material'].apply(
+    lambda x: x.strip().lower()
+)
 monstersDF.to_csv('./data/SmallMonsters.csv', index=False)
 ###############################################################################
 # Debug Dataframe
 ###############################################################################
-i = 0
+""" i = 0
 mEntry = list(monsters.items())[i]
 (name, lo, hi) = (mEntry[0], mEntry[1]['Low'], mEntry[1]['High'])
 tst = [aux.cleanMonster(x) for x in (lo, hi)]
 cln = [aux.monsterToMaterials(x, '{} {}'.format(name, nme)) for (x, nme) in zip(tst, ('-', '+'))]
 dfs = [pd.DataFrame(x, columns=aux.SM_COLS) for x in cln]
 df = pd.concat(dfs, ignore_index=True)
-df
+df """
 
