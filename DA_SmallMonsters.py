@@ -433,11 +433,11 @@ monstersDF.to_csv('./data/SmallMonsters.csv', index=False)
 ###############################################################################
 # Debug Dataframe
 ###############################################################################
-# i = 2
-# mEntry = list(monsters.items())[i]
-# (name, lo, hi) = (mEntry[0], mEntry[1]['Low'], mEntry[1]['High'])
-# tst = [aux.cleanMonster(x) for x in (lo, hi)]
-# cln = [aux.monsterToMaterials(x, '{} {}'.format(name, nme)) for (x, nme) in zip(tst, ('-', '+'))]
-# dfs = [pd.DataFrame(x, columns=aux.SM_COLS) for x in cln]
-# df = pd.concat(dfs, ignore_index=True)
-# df
+i = -4
+mEntry = list(monsters.items())[i]
+(name, lo, hi) = (mEntry[0], mEntry[1]['Low'], mEntry[1]['High'])
+tst = [aux.cleanMonster(x) for x in (lo, hi)]
+cln = [aux.monsterToMaterials(x, '{} {}'.format(name, nme)) for (x, nme) in zip(tst, ('-', '+'))]
+dfs = [pd.DataFrame(x, columns=aux.SM_COLS) for x in cln]
+df = pd.concat(dfs, ignore_index=True)
+df

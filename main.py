@@ -7,7 +7,8 @@ import DA_SandyPlains as SandyPlains
 import DA_LavaCaverns as LavaCaverns
 
 needed = [
-    'Kelbi', 'Anteka', 'Mizutsune', 'Slagtoth', 'Tobi-Kadachi', 'Somnacanth'
+    'Kelbi', 'Anteka', 'Mizutsune', 'Slagtoth', 'Tobi-Kadachi', 'Somnacanth',
+    'Remobra'
 ]
 needed = sorted(list(set(needed)))
 ###############################################################################

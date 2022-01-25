@@ -10,7 +10,8 @@ BAN = {
     "monster hunter rise wiki guide": '\t', 
     "material mhr wiki guide": '\t',
     "-monster-hunter-rise-wiki-guide": '\t',
-    "-material-mhr-wiki-guide": '\t'
+    "-material-mhr-wiki-guide": '\t',
+    "_monster_hunter_rise_wiki_guide": '\t'
 }
 SM_COLS = ('Monster', 'Material', 'Carve', 'Drop')
 LG_COLS =  (
