@@ -27,7 +27,7 @@ LOCALES = {
 ###############################################################################
 MNSTR_SM = pd.read_csv('./data/SmallMonsters.csv')
 # Testing material filtering --------------------------------------------------
-material = 'sharp fang'
+material = 'big fin'
 fltr = (MNSTR_SM['Material'] == material)
 MNSTR_SM[fltr]
 ###############################################################################

@@ -1,5 +1,4 @@
 
-from operator import index
 import aux
 import pandas as pd
 from collections import OrderedDict
@@ -411,6 +410,21 @@ monsters['Jaggi'] = {
         jaggi_scale+-material-mhr-wiki-guideJaggi Scale + 	25% (Part) 	--%
         screamer_sac-monster-hunter-rise-wiki-guideScreamer Sac 	30% (Part) 	--%
         acute_fang-monster-hunter-rise-wiki-guideAcute Fang 	10% (Part) 	--%
+        '''
+}
+# -----------------------------------------------------------------------------
+monsters['Delex'] = {
+    'Low': 
+        '''
+        Delex \t Monster Guts 	45% (Body) 	--%
+        Delex \t Sharp Fang 	15% (Body) 	--%
+        Delex \t Big Fin 	40% (Body) 	--%
+        ''',
+    'High': 
+        '''
+        Delex \t Monster Guts 	40% (Body) 	--%
+        Delex \t Sharp Fang 	20% (Body) 	--%
+        Delex \t Quality Fin 	40% (Body) 	--%
         '''
 }
 ###############################################################################
